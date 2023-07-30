@@ -51,6 +51,6 @@
 /* Add the following styles for pop-out effect */
 .linkTop-1W1aK6:hover,
 .member-2gU6Ar:hover {
-  transform: scale(1.03);
+  transform: scale(10.03);
   transition: transform 0.2s ease;
 }
