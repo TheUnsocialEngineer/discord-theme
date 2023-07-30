@@ -1,49 +1,57 @@
 /* Custom Discord Theme */
 /* Change the background color */
 :root {
-  --background-primary: #282c34;
-  --background-secondary: #202225;
-}
-
-/* Change the text color */
-.theme-dark {
-  --text-normal: #ffffff;
-  --text-muted: #8e9297;
-}
-
-/* Change the accent color */
-.theme-dark .accent2-3 {
-  color: #7289da;
-}
-
-/* Adjust the chat appearance */
-.message {
-  background-color: var(--background-primary);
-  border-radius: 8px;
-  padding: 8px;
-}
-
-.message-content {
-  color: var(--text-normal);
-}
-
-/* Customize the server list */
-.sidebar-2K8pFh {
-  background-color: var(--background-secondary);
-}
-
-/* Customize the user list */
-.membersWrap-2h-GB4 {
-  background-color: var(--background-secondary);
-}
-
-/* Adjust the server header */
-.wrapper-1BJsBx {
-  background-color: #36393e;
-  color: white;
-}
-
-/* Customize the mention highlight color */
-.theme-dark .mentioned-2fXR9i {
-  background-color: rgba(114, 137, 218, 0.2);
-}
+    --background-primary: #282c34;
+    --background-secondary: #202225;
+  }
+  
+  /* Change the text color */
+  .theme-dark {
+    --text-normal: #ffffff;
+    --text-muted: #8e9297;
+  }
+  
+  /* Change the accent color */
+  .theme-dark .accent2-3 {
+    color: #7289da;
+  }
+  
+  /* Adjust the chat appearance */
+  .message {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .message-content {
+    color: var(--text-normal);
+  }
+  
+  /* Customize the server list */
+  .sidebar-2K8pFh {
+    background-color: var(--background-secondary);
+  }
+  
+  /* Customize the user list */
+  .membersWrap-2h-GB4 {
+    background-color: var(--background-secondary);
+  }
+  
+  /* Adjust the server header */
+  .wrapper-1BJsBx {
+    background-color: #36393e;
+    color: white;
+  }
+  
+  /* Customize the mention highlight color */
+  .theme-dark .mentioned-2fXR9i {
+    background-color: rgba(114, 137, 218, 0.2);
+  }
+  /* Custom Discord Theme with Pop-out Effect on Hover */
+  /* Add the following styles for pop-out effect */
+  .linkTop-1W1aK6:hover,
+  .layout-1qmrhw:hover,
+  .member-2gU6Ar:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+  }
