@@ -47,11 +47,3 @@
 .theme-dark .mentioned-2fXR9i {
   background-color: rgba(114, 137, 218, 0.2);
 }
-/* Custom Discord Theme with Pop-out Effect on Hover */
-/* Add the following styles for pop-out effect */
-.linkTop-1W1aK6:hover,
-.layout-1qmrhw:hover,
-.member-2gU6Ar:hover {
-  transform: scale(10.03);
-  transition: transform 0.2s ease;
-}
